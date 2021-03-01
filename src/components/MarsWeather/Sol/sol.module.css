@@ -1,0 +1,9 @@
+.tempDiv {
+    margin-bottom: 1em;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header {
+    color:rgba(0, 0, 0, 0.24);
+}

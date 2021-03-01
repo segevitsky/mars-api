@@ -1,0 +1,28 @@
+.imageGrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+
+.galleryWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 480px) {
+    
+}
+
+@media (min-width: 768px) {
+.imageGrid {
+    grid-template-columns: repeat(5,1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

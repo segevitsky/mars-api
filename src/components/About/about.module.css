@@ -1,0 +1,59 @@
+.about {
+    height: 97vh;
+}
+
+.header {
+    color: white;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translate(-50%,-50%); /* Move it halfway back(x,y) */
+    text-align: center;
+    font-size: 1.5em;
+    /* background-image: url(../../Images/apod.jpg); */
+}
+
+.text {
+    background-color: rgb(44,47,49);
+    margin-top: -.5em;
+    padding: 1em;
+    color: white;
+    line-height: 2em;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btnDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+    .btnDiv {
+        flex-direction: row;
+        position: absolute;
+        top: 35vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 1200px) {
+    .btnDiv {
+        top: 45vh;
+    }
+
+}
+

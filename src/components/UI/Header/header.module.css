@@ -1,0 +1,40 @@
+.header {
+    color: white;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translate(-50%,-50%); /* Move it halfway back(x,y) */
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 3px;
+    opacity: .5;
+}
+
+.btn {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    border: 1px solid white;
+    color: white;
+    padding: 1em;
+    background: transparent;
+    transition: all 350ms ease-in;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #000;
+}
+
+@media (min-width: 720px) {
+    .header {
+        font-size: 4em;
+        top: 20vh;
+    }
+}

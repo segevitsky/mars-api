@@ -1,0 +1,26 @@
+.weatherGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 2em;
+    gap: 1em;
+    
+}
+
+
+
+@media (min-width: 480px) {
+    .weatherGrid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .weatherGrid {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
