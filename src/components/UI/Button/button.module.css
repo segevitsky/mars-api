@@ -5,8 +5,8 @@
     outline: none;
     cursor: pointer;
     font: inherit;
-    padding: 20px;
-    margin: 10px;
+    padding: .5em;
+    margin: .51em;
     font-weight: bold;
     border-radius: 4px;
 }
@@ -18,10 +18,6 @@ Button:disabled {
     color: #fff;
 }
 
-/* Button:hover {
-    color: tomato;
-} */
-
 .Success {
     background: linear-gradient(#fff, #000);
     color: white;
@@ -30,4 +26,11 @@ Button:disabled {
 .Danger {
     background: linear-gradient(#000, #fff);
     color: #fff;
+}
+
+
+@media (min-width: 480px) {
+    .Button {
+        padding: 1em;
+    }
 }
