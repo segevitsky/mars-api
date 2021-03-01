@@ -1,6 +1,11 @@
 .form {
     margin: 2em auto;
     text-align: center;
+    background: black;
+    color: white;
+    transform: translateY(-3em);
+    font-size: 1em;
+    padding: 1em;
 }
 
 .dateInput {
@@ -38,6 +43,10 @@
 @media (min-width: 768px) {
     .imageGrid {
         grid-template-columns: repeat(3,1fr);
+    }
+
+    .form {
+        font-size: 1.52em;
     }
 }
 
