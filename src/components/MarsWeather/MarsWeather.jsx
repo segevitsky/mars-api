@@ -20,6 +20,8 @@ export default function MarsWeather() {
         }
     })
 
+
+
     const renderedData = formattedData.map(el => (
         <Sol 
             key={el.sol} 
@@ -37,6 +39,11 @@ export default function MarsWeather() {
         <div>
              <Header name='Mars Weather' img={banner} back/>
              <div className={styles.weatherGrid}> {renderedData} </div>
+             <div className={styles.dictionary}>
+                <h3> AT - Atmosphric temperature sensor </h3>
+                <h3> HWS - Horizontal wind speed sensor </h3>
+                <h3> PRE - Atmosphric pressure sensor </h3>
+             </div>
         </div>
     )
 }
