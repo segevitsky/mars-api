@@ -2,10 +2,19 @@
 
 # To get started
 
-please clone the repo and type npm install in the terminal
+please clone the repo and type npm install in your terminal
 
-# to get the maximum out of this app
+# to get this app Working
 
 Please go to https://api.nasa.gov/index.html#browseAPI - and get a valid api key
+
+# Env variable
+
+create a .env file in your root folder and paste:
+REACT_APP_API_KEY='YOUR_KEY'
+
+# You're good to go
+
+type npm start in your terminal
 
 # Enjoy!
