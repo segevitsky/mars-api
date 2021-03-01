@@ -30,7 +30,9 @@ export default function ImagesByDate() {
     }
 
     const setDateHandler = e => {
-        setDate(e.target.value)
+        setDate(e.target.value);
+        setPage(1);
+
     }
 
     const handleSubmit = e => {
